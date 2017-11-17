@@ -37,3 +37,12 @@ width: 500px;
     display: block;
     margin: 0 auto;
   }
+  h3 {
+    margin: 0;
+    padding: 20px 0;    
+    color: rgb(159, 0, 0);
+  }
+  h3 {
+    font-size: 30px;
+    text-align: left;
+  }
