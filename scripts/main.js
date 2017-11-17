@@ -5,15 +5,16 @@
 //}
 var myImage = document.querySelector('img');
 
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/dolphin.jpg') {
-      myImage.setAttribute ('src','images/dolphin2.jpg');
-    } else {
-      myImage.setAttribute ('src','images/dolphin.jpg');
-    }
-}
+//myImage.onclick = function() {
+  //  var mySrc = myImage.getAttribute('src');
+  //  if(mySrc === 'images/printer.jpg') {
+   //   myImage.setAttribute ('src','images/dolphin2.jpg');
+  //  } else {
+  //    myImage.setAttribute ('src','images/dolphin.jpg');
+  //  }
+//}
 var myButton = document.querySelector('button');
+//var switch = document.querySelector('p');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
