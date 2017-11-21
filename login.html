@@ -1,0 +1,46 @@
+<!doctyype html>
+
+<html>
+    <head>
+        <title> login page</title>
+        <!<link rel="stylesheet" href="css/styles.css"/>>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+    <div id="error"> <?php echo $error; ?> </div>
+        <div id = "wrapper">
+            <div id="menue">
+                <a href="index.html">go back</a>
+            </div>
+            <div id="formDiv">
+
+                <form method="post" action="login.php" >
+
+                    <label>Email</label> <br/>
+                    <input type="text" name="email"/> <br/><br/>
+
+                    <label>Password</label> <br/>
+                    <input type="password" name="password"/> <br/>
+
+
+                    <label>keep me logged in</label>
+                    <input type="checkbox" name="keep"/><br/><br/>
+
+
+
+                    <input type="submit" name="submit" value="log in"/> <br/>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

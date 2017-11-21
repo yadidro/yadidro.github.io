@@ -17,7 +17,7 @@ var myButton = document.querySelector('button');
 //var switch = document.querySelector('p');
 var myHeading = document.querySelector('h3');
 
-function setUserName() {
+/*function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
   myHeading.innerHTML = 'welcome, ' + myName;
@@ -33,6 +33,13 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+*/
+
+
+
+
+
+
 //upload file
 const express = require('express');
 var app = express();

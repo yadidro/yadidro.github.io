@@ -1,14 +1,13 @@
 
 
 
+
 <!doctyype html>
 
 <html>
     <head>
         <title> registration</title>
-       <! <link rel="stylesheet" href="css/styles.css"/>>
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css"/>
     </head>
 
     <body>
@@ -17,7 +16,8 @@
         <div id = "wrapper">
             <div id = "wrapper">
                 <div id="menue">
-                    <a href="index.html">go back</a>
+                    <a href="index.php">sign up</a>
+                    <a href="login.php">log in</a>
                 </div>
                 <div id="formDiv">
             <div id="formDiv">
@@ -40,8 +40,8 @@
                     <label>re-enter Password</label> <br/>
                     <input type="password" name="passwordConfirm"/> <br/><br/>
 
-                  <!--<label>   <!Image</label> <br/>
-                    <input type="file" name="image"/> <br/><br/>>-->
+                    <label>Image</label> <br/>
+                    <input type="file" name="image"/> <br/><br/>
 
 
                     <input type="submit" name="submit"/> <br/>
