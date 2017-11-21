@@ -1,1 +1,0 @@
-# yadidro.github.io
