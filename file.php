@@ -70,6 +70,7 @@ $date=$_SESSION['date'];//we want to know the time,to select the properties that
         }
           
           if(empty($errors)==true){
+             chmod ($file_tmp, 666);//change the file permissions,so it can't be executed
              move_uploaded_file( $file_tmp,"Uploads/".$new_file_name);
              ?>
             <h5><?php echo "Success";?> </h5>
