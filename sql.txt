@@ -1,0 +1,22 @@
+CREATE TABLE users (
+    firstName varchar(255),
+    lastname varchar(255),
+    email varchar(255),
+    password varchar(255),
+    credit longtext,
+    id int,
+    PRIMARY KEY (id)
+    );
+
+
+CREATE TABLE work (
+    order_num int AUTO_INCREMENT,
+    id int,
+    date DATETIME,
+  	kind varchar(255),
+    binding varchar(255),
+    inv_stu varchar(255) DEFAULT 'on work',
+ color varchar(255),
+    PRIMARY KEY (order_num),
+    FOREIGN KEY (id) REFERENCES users(id)
+    );
